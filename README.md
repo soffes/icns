@@ -1,8 +1,6 @@
 # Icns
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/icns`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+Ruby library for extrating images from [ICNS](https://en.wikipedia.org/wiki/Apple_Icon_Image_format) files.
 
 ## Installation
 
@@ -37,3 +35,7 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/soffes
 ## License
 
 The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+
+## References
+
+https://en.wikipedia.org/wiki/Apple_Icon_Image_format
