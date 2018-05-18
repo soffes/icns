@@ -1,6 +1,8 @@
-# Icns
+# ICNS
 
-Ruby library for extrating images from [ICNS](https://en.wikipedia.org/wiki/Apple_Icon_Image_format) files.
+[![Build Status](https://travis-ci.com/soffes/icns.svg?branch=master)](https://travis-ci.com/soffes/icns)
+
+Ruby library for extrating images from [Apple Icon Image format (ICNS)](https://en.wikipedia.org/wiki/Apple_Icon_Image_format) files.
 
 
 ## Installation
