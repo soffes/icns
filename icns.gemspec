@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.version       = Icns::VERSION
   spec.authors       = ['Sam Soffes']
   spec.email         = ['sam@soff.es']
-  spec.summary       = 'Ruby library for extrating images from ICNS files.'
+  spec.summary       = 'Read images from Apple Icon Image format (ICNS) files.'
   spec.homepage      = 'https://github.com/soffes/icns'
   spec.license       = 'MIT'
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|
