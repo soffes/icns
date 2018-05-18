@@ -1,5 +1,6 @@
 # ICNS
 
+[![Gem Version](https://img.shields.io/gem/v/icns.svg)](http://rubygems.org/gems/icns)
 [![Build Status](https://travis-ci.com/soffes/icns.svg?branch=master)](https://travis-ci.com/soffes/icns)
 
 Ruby library for extrating images from [Apple Icon Image format (ICNS)](https://en.wikipedia.org/wiki/Apple_Icon_Image_format) files.
