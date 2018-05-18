@@ -30,7 +30,7 @@ Read an icon out of an ICNS file:
 require 'icns'
 
 # Create a reader for an ICNS file
-reader = Icns::Reader('/Applications/Preview.app/Contents/Resources/Preview.icns')
+reader = Icns::Reader.new('/Applications/Preview.app/Contents/Resources/Preview.icns')
 
 # Extract the image data for a given size
 data = reader.image_for_size(1024)
