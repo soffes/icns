@@ -38,7 +38,7 @@ module Icns
 
       data = nil
       types.each do |type|
-        break if data = image_data_for_type(type)
+        break if data = data_for_type(type)
       end
 
       data

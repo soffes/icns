@@ -19,27 +19,27 @@ class ReaderTest < Minitest::Test
   end
 
   def test_image_data_for_type
-    refute_nil @reader.image_for_type('is32')
-    refute_nil @reader.image_for_type('s8mk')
-    refute_nil @reader.image_for_type('il32')
-    refute_nil @reader.image_for_type('l8mk')
-    refute_nil @reader.image_for_type('ic07')
-    refute_nil @reader.image_for_type('ic08')
-    refute_nil @reader.image_for_type('ic09')
-    refute_nil @reader.image_for_type('ic10')
-    refute_nil @reader.image_for_type('ic11')
-    refute_nil @reader.image_for_type('ic12')
-    refute_nil @reader.image_for_type('ic13')
-    refute_nil @reader.image_for_type('ic14')
+    refute_nil @reader.data_for_type('is32')
+    refute_nil @reader.data_for_type('s8mk')
+    refute_nil @reader.data_for_type('il32')
+    refute_nil @reader.data_for_type('l8mk')
+    refute_nil @reader.data_for_type('ic07')
+    refute_nil @reader.data_for_type('ic08')
+    refute_nil @reader.data_for_type('ic09')
+    refute_nil @reader.data_for_type('ic10')
+    refute_nil @reader.data_for_type('ic11')
+    refute_nil @reader.data_for_type('ic12')
+    refute_nil @reader.data_for_type('ic13')
+    refute_nil @reader.data_for_type('ic14')
   end
 
   def test_image_data_for_size
-    refute_nil @reader.data_for_size(32)
-    refute_nil @reader.data_for_size(64)
-    refute_nil @reader.data_for_size(128)
-    refute_nil @reader.data_for_size(256)
-    refute_nil @reader.data_for_size(512)
-    refute_nil @reader.data_for_size(1024)
+    refute_nil @reader.image_for_size(32)
+    refute_nil @reader.image_for_size(64)
+    refute_nil @reader.image_for_size(128)
+    refute_nil @reader.image_for_size(256)
+    refute_nil @reader.image_for_size(512)
+    refute_nil @reader.image_for_size(1024)
   end
 
   def test_sizes
