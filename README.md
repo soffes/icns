@@ -20,7 +20,18 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+require 'icns'
+
+# Create a reader for an ICNS file
+reader = Icns::Reader('/Applications/Preview.app/Contents/Resources/Preview.icns')
+
+# Extract the image data for a given size
+data = reader.image_data_for_size(1024)
+
+# Write the image data out or do whatever you want with it
+File.write('Preview.png', data)
+```
 
 ## Development
 
