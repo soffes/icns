@@ -20,7 +20,7 @@ module Icns
     end
 
     # Raw data for a type
-    def data_for_type(type)
+    def data(type:)
       return nil unless part = @parts[type.to_s]
 
       File.open(@path) do |file|
@@ -33,12 +33,12 @@ module Icns
     end
 
     # PNG or JPEG-2000 data for a size
-    def image_for_size(size)
+    def image(size:)
       return nil unless types = SIZE_TO_TYPE[size.to_i]
 
       data = nil
       types.each do |type|
-        break if data = data_for_type(type)
+        break if data = self.data(type: type)
       end
 
       data

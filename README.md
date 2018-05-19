@@ -34,7 +34,7 @@ require 'icns'
 reader = Icns::Reader.new('/Applications/Preview.app/Contents/Resources/Preview.icns')
 
 # Extract the image data for a given size
-data = reader.image_for_size(1024)
+data = reader.image(size: 1024)
 
 # Write the image data out or do whatever you want with it
 File.write('Preview.png', data)
