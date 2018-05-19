@@ -6,14 +6,14 @@ class ReaderTest < Minitest::Test
   def setup
     super
 
-    path = File.expand_path('../fixtures/Preview.icns', __FILE__)
+    path = File.expand_path('fixtures/Preview.icns', __dir__)
     @reader = Icns::Reader.new(path)
   end
 
   def test_types
-    types = [
-      'is32', 's8mk', 'il32', 'l8mk', 'ic07', 'ic08', 'ic09', 'ic11', 'ic12',
-      'ic13', 'ic14', 'ic10'
+    types = %w[
+      is32 s8mk il32 l8mk ic07 ic08 ic09 ic11 ic12
+      ic13 ic14 ic10
     ]
     assert_equal types, @reader.types
   end

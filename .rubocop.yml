@@ -1,0 +1,12 @@
+AllCops:
+  TargetRubyVersion: 2.5.1
+  Exclude:
+    - bin/**/*
+    - vendor/**/*
+
+Style/AsciiComments:
+  Enabled: false
+
+Metrics:
+  Exclude:
+    - test/**/*

@@ -106,12 +106,12 @@ module Icns
 
   # Types to try for each size
   SIZE_TO_TYPE = {
-    16 => %w(icp4),
-    32 => %w(icp5 ic11),
-    64 => %w(icp6 ic12),
-    128 => %w(ic07),
-    256 => %w(ic08 ic13),
-    512 => %w(ic09 ic14),
-    1024 => %w(ic10)
-  }
+    16 => %w[icp4],
+    32 => %w[icp5 ic11],
+    64 => %w[icp6 ic12],
+    128 => %w[ic07],
+    256 => %w[ic08 ic13],
+    512 => %w[ic09 ic14],
+    1024 => %w[ic10]
+  }.freeze
 end
